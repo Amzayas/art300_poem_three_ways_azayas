@@ -1,0 +1,301 @@
+/* --- COMPUTER ---*/
+
+@import url("https://use.typekit.net/rtb8cch.css");
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(181, 190, 198);
+}
+
+.title{
+    width: 90vw;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: -25px;
+    background-color: rgb(54, 70, 82);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.texttitle{
+    margin-top: -80px;
+    margin-right: -5px;
+    height: 300px;
+    width: 90vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(181, 190, 198);
+    text-align: right;
+    font-size: 7.5em;
+}
+
+.mainbodycontainer{
+    width: 90vw;
+    margin-left: 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+}
+
+.sidebar{}
+
+.content{
+    position: relative;
+    display: grid;
+    grid-template-rows: 70px  600px;
+    margin-left: 20px;
+}
+
+.author{}
+
+.textauthor{
+    font-size: 1.25em;
+    color: rgb(54, 70, 82);
+}
+
+.textauthor{}
+
+.poem{
+    text-align: right;
+    margin-top: -50px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stanza1{
+    margin-bottom: 40px;
+    line-height: .5em;
+}
+
+.stanza2{
+    margin-bottom: 40px;
+    line-height: .5em;
+}
+
+.stanza3{
+    margin-bottom: 40px;
+    line-height: .5em;
+}
+
+.stanza4{
+    line-height: .5em;
+}
+
+.bookdate{
+    height: 100px;
+    width: 90vw;
+    margin-left: 0px;
+    text-align: right;
+    margin-bottom: 50px;
+    color: rgb(54, 70, 82);
+    font-size: 1.75em;
+}
+/* --- TABLET --- */
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: rgb(255, 188, 10);
+    }
+
+    .title{
+        width: 100vw;
+        height: 220px;
+        margin: auto;
+        background-color: rgb(249, 235, 224);
+        margin-top: -22px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .texttitle{
+        height: 75px;
+        width: 75vw;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2.75em;
+        font-family: cursive;
+        color: black
+    }
+
+    .mainbodycontainer{
+        width: 100vw;
+        margin: auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: 0.2fr 1.8fr;
+    }
+
+    .content{
+        background-color: rgb(249, 235, 224);
+        display: grid;
+        grid-template-rows: 100px 880px;
+        grid-row-gap: 20px;
+    }
+    
+    .author{
+        background-color: rgb(255, 188, 10);
+    }
+
+    .textauthor{
+        width: 600px;
+        text-align: center;
+        margin: auto;
+        margin-top: -40px;
+        font-size: 2.25em;
+        font-family: cursive;
+        color: rgb(249, 235, 224);
+    }
+
+    .poem{
+        color: black;
+        margin-left: 30px;
+        font-size: 1.5em;
+        text-align: left;
+        margin-top: 0px;
+    }
+
+    .stanza1{
+        margin-bottom: 40px;
+        line-height: .5em;
+    }
+
+    .stanza2{
+        margin-bottom: 40px;
+        line-height: .5em;
+    }
+
+    .stanza3{
+        margin-bottom: 40px;
+        line-height: .5em;
+    }
+
+    .stanza4{
+        line-height: .5em;
+    }
+
+    .sidebar{
+        height: 1000px;
+        background-color: rgb(255, 188, 10);
+    }
+
+    .bookdate{
+        height: 50px;
+        width: 90vw;
+        margin-left: 102.5px;
+        background-color: rgb(249, 235, 224);
+        margin-top: -19px;
+        text-align: left;
+    }
+
+    .textbookdate{
+        margin-left: 30px;
+        font-family: cursive;
+    }
+}
+
+/* --- SMART PHONE --- */
+
+@media only screen and (max-width: 800px){
+
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: rgb(239, 214, 172);
+    }
+
+    .title{
+        width: 100vw;
+        height: 193px;
+        margin: auto;
+        position: relative;
+        background-color: rgb(239, 214, 172);
+    }
+
+    .texttitle{
+        height: 50px;
+        text-align: left;
+        font-size: 2.2em;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(196, 73, 0);
+        margin-top: 10px;
+    }
+
+    .mainbodycontainer{
+        width: 100vw;
+        margin: auto;
+        margin-top: -60px;
+        position: relative;
+        display: grid;
+        background-color: rgb(239, 214, 172);
+        grid-template-columns: 0.2fr 1.8fr;
+        grid-column-gap: 1em;
+    }
+
+    .sidebar{
+        height: 1300px;
+        background-color: rgb(196, 73, 0);
+    }
+    
+    .content{
+        height: 1300px;
+        display: grid;
+        grid-template-rows: 20px  400px;
+        grid-row-gap: 53em;
+        position: relative;
+    }
+
+    .author{
+        font-size: 1em;
+        margin-top: -24px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+    }
+
+    .textauthor{
+        color: black;
+        margin-left: -20px;
+    }
+
+    .poem{
+        background-color: rgb(239, 214, 172);
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-left: -25px;
+        margin-top: 0px;
+        font-size: 1em;
+
+    }
+
+    .stanza1{
+        margin-bottom: 30px;
+        line-height: .5em;
+    }
+
+    .stanza2{
+        margin-bottom: 30px;
+        line-height: .5em;
+    }
+
+    .stanza3{
+        margin-bottom: 30px;
+        line-height: .5em;
+    }
+
+    .stanza4{
+        line-height: .5em;
+    }
+
+    .bookdate{
+        width: 100vw;
+        height: 35px;
+        color: rgb(196, 73, 0);
+        font-size: 1.5em;
+        margin-top: -23px;
+        text-align: left;
+    }
+}
